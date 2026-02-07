@@ -1,0 +1,661 @@
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git commit -a -m
+error: switch `m' requires a value
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ pwd
+/c/Users/DCS/Desktop/Git_Practical_Demo_Project
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git status
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.ai-navigator/
+        ../../.anaconda/
+        ../../.android/
+        ../../.bash_history
+        ../../.cache/
+        ../../.conda/
+        ../../.condarc
+        ../../.config/
+        ../../.continuum/
+        ../../.cursor/
+        ../../.docker/
+        ../../.dotnet/
+        ../../.emulator_console_auth_token
+        ../../.gitconfig
+        ../../.gitignore
+        ../../.gradle/
+        ../../.idlerc/
+        ../../.ipynb_checkpoints/
+        ../../.ipython/
+        ../../.jupyter/
+        ../../.lesshst
+        ../../.m2/
+        ../../.mamba/
+        ../../.matplotlib/
+        ../../.nbi/
+        ../../.node_repl_history
+        ../../.packettracer
+        ../../.sonarlint/
+        ../../.spyder-py3/
+        ../../.sts4/
+        ../../.vscode/
+        ../../AndroidStudioProjects/
+        ../../AppData/
+        ../../Cisco Packet Tracer 8.2.1/
+        ../../Cisco Packet Tracer 8.2.2/
+        ../../Contacts/
+        ../
+        ../../Documents/
+        ../../Downloads/
+        ../../Favorites/
+        ../../GlassFish_Server/
+        ../../IdeaProjects/
+        ../../IntelGraphicsProfiles/
+        ../../Links/
+        ../../Microsoft/
+        ../../Music/
+        ../../NTUSER.DAT
+        ../../NTUSER.DAT{37414c5c-42ee-11ed-8129-88644c4fc2d7}.TM.blf
+        ../../NTUSER.DAT{37414c5c-42ee-11ed-8129-88644c4fc2d7}.TMContainer000000
+00000000000001.regtrans-ms
+        ../../NTUSER.DAT{37414c5c-42ee-11ed-8129-88644c4fc2d7}.TMContainer000000
+00000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Untitled-1.css
+        ../../Untitled.ipynb
+        ../../Untitled1.ipynb
+        ../../Untitled2.ipynb
+        ../../Untitled3.ipynb
+        ../../Untitled4.ipynb
+        ../../Videos/
+        ../../anaconda3/
+        ../../as2023619k.css
+        ../../data_comma.txt
+        ../../hi1/
+        ../../hospitalManagementSystem/
+        ../../javac
+        ../../myproject.sql
+        ../../newXMLDocument.xml
+        ../../node_modules/
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.ini
+        ../../package-lock.json
+        ../../package.json
+        ../../pulse.MPJ
+        ../../runs/
+        ../../seaborn-data/
+        ../../source/
+        ../../untitled
+        ../../untitled.txt
+        ../../untitled1.txt
+        ../../weather.xlsx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git init
+Initialized empty Git repository in C:/Users/DCS/Desktop/Git_Practical_Demo_Proj
+ect/.git/
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        img/
+        index.html
+        js/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git commit -m "Initial project commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        css/
+        img/
+        index.html
+        js/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git add .
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   css/style.css
+        new file:   img/img.png
+        new file:   img/logo.png
+        new file:   index.html
+        new file:   js/script.js
+
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git commit -m "Added files"
+[master (root-commit) b75811e] Added files
+ 5 files changed, 712 insertions(+)
+ create mode 100644 css/style.css
+ create mode 100644 img/img.png
+ create mode 100644 img/logo.png
+ create mode 100644 index.html
+ create mode 100644 js/script.js
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository us
+ing
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git remote add origin https://github.com/InduUpadhya/REPO.git
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (master)
+$ git branch -M main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ ^C
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git push --set-upstream origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/InduUpadhya/REPO.git/' not found
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ g
+bash: g: command not found
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ ggggg
+bash: ggggg: command not found
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch
+* main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git remote -v
+origin  https://github.com/InduUpadhya/REPO.git (fetch)
+origin  https://github.com/InduUpadhya/REPO.git (push)
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git commit -m "add.gitignore"
+On branch main
+nothing to commit, working tree clean
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git remote -v
+origin  https://github.com/InduUpadhya/REPO.git (fetch)
+origin  https://github.com/InduUpadhya/REPO.git (push)
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git remote add origin https://github.com/InduUpadhya/GitPractical.git
+error: remote origin already exists.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git remote set-url origin ^C
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git remote set-url origin https://github.com/InduUpadhya/GitPractical.git
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git push origin -u main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 2.53 MiB | 3.40 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/InduUpadhya/GitPractical.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch
+* main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch -r
+  origin/main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch -a
+* main
+  remotes/origin/main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch dev-branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch -a
+  dev-branch
+* main
+  remotes/origin/main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git checkout dev-branch
+Switched to branch 'dev-branch'
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git add .
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git status
+On branch dev-branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   login.html
+
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git commit -m "add login.html"
+[dev-branch 5db0bd1] add login.html
+ 1 file changed, 2 insertions(+)
+ create mode 100644 login.html
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git add .
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git status
+On branch dev-branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   register.html
+
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git commit -m "add register.html"
+[dev-branch f5da918] add register.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 register.html
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git checkout dev-branch
+Switched to branch 'dev-branch'
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git checkout dev-branch
+Already on 'dev-branch'
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git push original -u dev-branch
+fatal: 'original' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git push origin -u dev-branch
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 603 bytes | 603.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'dev-branch' on GitHub by visiting:
+remote:      https://github.com/InduUpadhya/GitPractical/pull/new/dev-branch
+remote:
+To https://github.com/InduUpadhya/GitPractical.git
+ * [new branch]      dev-branch -> dev-branch
+branch 'dev-branch' set up to track 'origin/dev-branch'.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git branch local_branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git branch remote_branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git branch
+* dev-branch
+  local_branch
+  main
+  remote_branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git push origin -u remote_branch
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'remote_branch' on GitHub by visiting:
+remote:      https://github.com/InduUpadhya/GitPractical/pull/new/remote_branch
+remote:
+To https://github.com/InduUpadhya/GitPractical.git
+ * [new branch]      remote_branch -> remote_branch
+branch 'remote_branch' set up to track 'origin/remote_branch'.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git branch --d local_branch
+Deleted branch local_branch (was f5da918).
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git branch -a
+* dev-branch
+  main
+  remote_branch
+  remotes/origin/dev-branch
+  remotes/origin/main
+  remotes/origin/remote_branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git branch push origin --delete remote_branch
+error: branch 'push' not found
+error: branch 'origin' not found
+Deleted branch remote_branch (was f5da918).
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git push origin --delete remote_branch
+To https://github.com/InduUpadhya/GitPractical.git
+ - [deleted]         remote_branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git log
+commit f5da918fcf97bbbc029eed410b4d060596b26f88 (HEAD -> dev-branch, origin/dev-
+branch)
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 10:00:31 2026 +0530
+
+    add register.html
+
+commit 5db0bd1570a3c620790d441d14acab890e17351c
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 09:58:56 2026 +0530
+
+    add login.html
+
+commit b75811e29a7e5533edaf62738f3873efe169fa50 (origin/main, main)
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 09:00:23 2026 +0530
+
+    Added files
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ ^C
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git log --4
+fatal: unrecognized argument: --4
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git log -4
+commit f5da918fcf97bbbc029eed410b4d060596b26f88 (HEAD -> dev-branch, origin/dev-
+branch)
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 10:00:31 2026 +0530
+
+    add register.html
+
+commit 5db0bd1570a3c620790d441d14acab890e17351c
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 09:58:56 2026 +0530
+
+    add login.html
+
+commit b75811e29a7e5533edaf62738f3873efe169fa50 (origin/main, main)
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 09:00:23 2026 +0530
+
+    Added files
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git checkout 5db0
+Note: switching to '5db0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 5db0bd1 add login.html
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project ((5db0bd1...))
+$ git branch dev-new-branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project ((5db0bd1...))
+$ git checkout dev-new-branch
+Switched to branch 'dev-new-branch'
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-new-branch)
+$ git status
+On branch dev-new-branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        forgotpasswordform.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-new-branch)
+$ git add .
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-new-branch)
+$ git commit -m "add forgot password form"
+[dev-new-branch e480717] add forgot password form
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 forgotpasswordform.html
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-new-branch)
+$ git push origin -u dev-new-branch
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 73.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'dev-new-branch' on GitHub by visiting:
+remote:      https://github.com/InduUpadhya/GitPractical/pull/new/dev-new-branc
+remote:
+To https://github.com/InduUpadhya/GitPractical.git
+ * [new branch]      dev-new-branch -> dev-new-branch
+branch 'dev-new-branch' set up to track 'origin/dev-new-branch'.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-new-branch)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch dev1-new-branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch -a
+  dev-branch
+  dev-new-branch
+  dev1-new-branch
+* main
+  remotes/origin/dev-branch
+  remotes/origin/dev-new-branch
+  remotes/origin/main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git switch dev-branch
+Switched to branch 'dev-branch'
+Your branch is up to date with 'origin/dev-branch'.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git branch
+* dev-branch
+  dev-new-branch
+  dev1-new-branch
+  main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev-branch)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git fetch
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 1), reused 4 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 657 bytes | 5.00 KiB/s, done.
+From https://github.com/InduUpadhya/GitPractical
+   b75811e..398509b  main       -> origin/main
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git merge
+Updating b75811e..398509b
+Fast-forward
+ login.html    | 2 ++
+ register.html | 0
+ 2 files changed, 2 insertions(+)
+ create mode 100644 login.html
+ create mode 100644 register.html
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git pull
+Already up to date.
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git branch dev3-new-branch
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (main)
+$ git checkout dev3-new-branch
+Switched to branch 'dev3-new-branch'
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev3-new-branch)
+$ git status
+On branch dev3-new-branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        home.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev3-new-branch)
+$ git add .
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev3-new-branch)
+$ git commit -m "added home.html form"
+[dev3-new-branch c49bb47] added home.html form
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 home.html
+
+DCS@LCSR022 MINGW64 ~/Desktop/Git_Practical_Demo_Project (dev3-new-branch)
+$ git log
+commit c49bb47d07e5c23218ef89c4c72f393bfc724a39 (HEAD -> dev3-new-branch)
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 11:35:27 2026 +0530
+
+    added home.html form
+
+commit 398509b47dc8f8e9be3853ec907d1b61a271fb89 (origin/main, origin/HEAD, main)
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 10:00:31 2026 +0530
+
+    add register.html
+
+commit 7d09815f61dd2992e3768356a9d1349b4ae31f03
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 09:58:56 2026 +0530
+
+    add login.html
+
+commit b75811e29a7e5533edaf62738f3873efe169fa50 (dev1-new-branch)
+Author: Upadhya <upsenanayake99@gmail.com>
+Date:   Sat Feb 7 09:00:23 2026 +0530
+
+    Added files
+(END)q
